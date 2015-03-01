@@ -5,9 +5,9 @@ import java.util.*;
  */
 public class Player1 extends Player {
 
-    public Player1(String n, HashMap<Integer, String[]> h){
+    public Player1(String n){
         this.player1 = n;
-        this.hand_cards = h;
+        this.setHand_cards();
     }
 
 //    Player1.seeHand();
@@ -60,11 +60,7 @@ public class Player1 extends Player {
             if (choice == 4) {
 
             }
-
         }
-
-
-
     }
     private static int getPositiveIntInput(Scanner s) {
 

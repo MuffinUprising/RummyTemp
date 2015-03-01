@@ -13,7 +13,7 @@ public class GameManager {
         }
         else if(start.equals("y")) {
             Deck game_start = new Deck("game1");
-            Player player = new Player("player1");
+            Player1 player = new Player1("player1");
 //            Player cpu = new hand("computer");
             for(int x = 0; x < 5; x ++){
                 player.getCards().put(x, game_start.draw());
