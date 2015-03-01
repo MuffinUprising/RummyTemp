@@ -18,7 +18,7 @@ public class Player1 extends Player {
         for(int x = 0; x < this.getCards().size(); x ++){
             String[] view = this.getCards().get(x);
             for(int v = 0; v < view.length; v ++){
-
+                //print card
                 System.out.print(Integer.toString(x) + "| " + view[v] + " |");
                 if(v%2 != 0) {
                     System.out.println();
