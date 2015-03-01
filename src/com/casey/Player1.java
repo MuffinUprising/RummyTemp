@@ -39,6 +39,7 @@ public class Player1 extends Player {
             System.out.println("[3] Add cards to meld");
             System.out.println("[4] Discard and end turn");
 
+            // call method to check input
             int choice = getPositiveIntInput(s);
 
             if (choice == 1) {      // draw from deck option
