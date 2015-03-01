@@ -29,6 +29,8 @@ public class Player {
         this.hand_cards = new HashMap<Integer, String[]>();
     }
 
+    public HashMap<Integer, String[]> getHand_cards() {return hand_cards;}
+
     public HashMap<Integer, String[]> getCards() {return this.hand_cards;}
 
     public void seeHand(){
